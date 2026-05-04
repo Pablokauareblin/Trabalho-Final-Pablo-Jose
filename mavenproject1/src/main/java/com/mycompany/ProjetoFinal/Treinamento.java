@@ -10,7 +10,7 @@ import java.util.Date;
  *
  * @author aluno
  */
- class Treinamento {
+ public class Treinamento {
      
     String identificadorDotreinamento;
     String nome;
