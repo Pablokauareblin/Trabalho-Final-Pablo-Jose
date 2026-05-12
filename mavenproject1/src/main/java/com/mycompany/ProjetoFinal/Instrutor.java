@@ -13,4 +13,22 @@ public class Instrutor {
     String nome;
     String especialidade;
     String tipo;
+    public String getNome(){
+        return nome;
+    }
+    public String setNome (String nome){
+        return this.nome;
+    }
+    public String especialidade(){
+        return especialidade;
+    }
+    public String especialidade (String especialidade){
+        return this.especialidade;
+    }
+    public String getTipo(){
+        return tipo;
+    }
+    public String setTipó (String tipo){
+        return this.tipo;
+    }
 }

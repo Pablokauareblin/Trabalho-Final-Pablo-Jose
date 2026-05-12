@@ -13,4 +13,22 @@ public class Instituicao {
     String nome;
     int cnpj;
     int contato;
+    public String getNome() {
+        return nome;
+    }
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+    public int getCNPJ() { 
+        return cnpj; 
+    }
+    public void setCNPJ(int cnpj) { 
+        this.cnpj = cnpj; 
+    }
+    public int getContato() { 
+        return contato; 
+    }
+    public void setContato(int contato) {
+        this.contato = contato; 
+    }
 }

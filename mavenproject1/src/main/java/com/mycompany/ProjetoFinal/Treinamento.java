@@ -12,14 +12,18 @@ import java.util.Date;
  */
  public class Treinamento {
      
-    String identificadorDotreinamento;
-    String nome;
-    String descricao;
-    String tipo;
-    int cargaHoraria;
-    Date dataInicio;
-    Date dataFim;
-    String status;
-    String local;
-    String instituicao;
+ private String identificadorDoTreinamento;
+ private String nome;
+ private String descricao;
+ private String tipo; // interno, externo
+ private int cargaHoraria;
+ private Date dataInicio;
+ private Date dataFim;
+ private String status;
+ private String local;
+ private String instituicaoNome;
+ private boolean eligibilidade;
+    public boolean verificarEligibilidade(String nome,String tipo,int cargaHoraria,Date dataInicio,Date dataFim,String status,String local,String instituicaoNome){
+        return this.eligibilidade;
+    }
 }

@@ -15,4 +15,8 @@ public class certificado {
     Date dataDeEmissao;
     String participante;
     String treinamento;
+    public void emitirCertificado(String paticipante){}
+    public Date validarAutenticidade (Date dataDeEmissao){
+        return dataDeEmissao;
+    }
 }

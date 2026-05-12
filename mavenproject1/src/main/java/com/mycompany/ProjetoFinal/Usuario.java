@@ -13,4 +13,10 @@ public class Usuario {
     String login;
     String senha;
     String perfil;
+    public boolean autenticar(String senha,String login) { 
+        return true; 
+    }
+    public boolean verificarPermissao(String perfil) { 
+        return true; 
+    }
 }

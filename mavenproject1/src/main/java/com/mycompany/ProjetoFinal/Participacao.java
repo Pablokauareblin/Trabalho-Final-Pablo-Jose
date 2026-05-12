@@ -13,6 +13,15 @@ public class Participacao {
     String bombeiro;
     String treinamento;
     String status;
-    String frequencia;
-    Double nota;
+    double frequencia;
+    double nota;
+    public void registrarInscricao(){}
+    public void lancarResultados(double nota,double frequencia){}
+    public String confirmarConclusao(double nota,double frequencia){
+        if(nota > 6 && frequencia>75*100/frequencia){
+            return status = "concluido";
+        }
+        return this.status;
+    }
+    
 }

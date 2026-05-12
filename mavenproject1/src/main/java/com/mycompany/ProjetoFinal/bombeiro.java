@@ -20,4 +20,10 @@ public class bombeiro {
     String especialidade;
     int contato;
     String status;
+    public String verificarEligibilidade(String status){
+        if(status.equals("concluido")){
+            return status = "elegivel";
+        }
+        return status;
+    }
 }
